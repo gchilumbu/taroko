@@ -1,0 +1,73 @@
+/* 
+    Document   : user_stylesheet
+    Created on : Aug 7, 2012, 4:59:15 PM
+    Author     : gchilumbu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+	background-color:#FAFAFA;
+}
+
+#container {
+  background-color: #FFFFFF;
+  width:880px; 
+  margin:0 auto;
+  height:400px;
+}
+
+div.center {   
+  margin-left: auto;   
+  margin-right: auto; 
+  width: 30em; 
+  border:1px solid lavender;
+}
+
+div.forms {
+  width:auto;
+  clear:both; 
+  display:block;
+  margin-top: 5px;
+}
+
+label{
+  width:10em;  
+  float:left;
+  text-align:right;
+  margin-right: 5px;
+}
+
+h2{
+  text-align: center;
+  font-style: normal;
+}
+
+p { 
+  color: red;  
+  font-variant: small-caps; 
+  text-align: center;
+}
+
+span{
+  color:red;
+
+}
+
+table,td,th{
+  text-align:center;
+  border:1px solid black;
+}
+table{
+  width:100%;
+}
+
+th{
+  background-color:#EEEEEE;
+  height:50px;
+  font-size: 14px;
+}
+

@@ -1,0 +1,41 @@
+#wrap {
+     overflow: hidden;
+   }
+   .box {
+     width: 20%;
+     padding-bottom: 20%;
+     color: #FFF;
+     position: relative;
+     float: left;
+   }
+   .innerContent {
+     position: absolute;
+     left: 1px;
+     right: 1px;
+     top: 1px;
+     bottom: 1px;
+     background: #66F;
+     padding: 10px;
+   }
+   
+   .parent
+   {
+   	width:80%;
+   	margin-left:10%;
+       height: auto;
+       border: 1px solid #a18d6c;
+       padding: 5px;
+   	clear: both;
+   }
+
+   .child
+   {
+       height: auto;
+       border: 1px solid #0f0;
+	
+   }
+
+   .clear
+   {
+       clear: both;
+   }
